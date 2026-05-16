@@ -17,7 +17,7 @@ When "Notify All" is selected by admin, the server broadcasts an event via the s
 ## Stage-03: Query Optimization
 **Reason for slow:** The query WHERE studentID = 1042 AND isRead = false performs a Full Table Scan if there is no Database indexing.
 **Suggestion:** We should add a Composite Index on (studentID, isRead).
-because adding an index on every column is not preferrable as it slows down writes.
+because adding an index on every column is not preferrable as it slows down writes. <br>
 **Example:** Placement NotificationLast 11 days
 SELECT * FROM notifications 
 WHERE notificationType = 'Placement' 
@@ -34,7 +34,7 @@ Store the "latest 20 unread notifications" in Redis. This reduces DB load by 90%
 In the current scenario the loop is synchronous. If one email fails or the DB times out, the whole process blocks or hangs.
 **Solution**: Use an Asynchronous Message Queue (e.g., RabbitMQ)
 1. The notify_all function pushes 50,000 tasks into the Queue.
-2. Worker nodes pick up these tasks independently.
+2. Worker nodes pick up these tasks independently. <br>
 **Decoupling:** DB storage and Email sending should be separate microservices communicating via the Queue.
 
 
