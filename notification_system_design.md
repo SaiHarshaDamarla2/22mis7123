@@ -38,7 +38,7 @@ In the current scenario the loop is synchronous. If one email fails or the DB ti
 **Decoupling:** DB storage and Email sending should be separate microservices communicating via the Queue.
 
 
-#### These are the design decisions we made for design our system to make sure it is efficient, relaibale also scalable, overall making our system real-world ready.
+#### These are the design decisions we made for design our system to make sure it is efficient, relaibale also scalable, overall making our system real-world ready.    
 
 
 
