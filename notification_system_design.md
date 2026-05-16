@@ -41,6 +41,8 @@ In the current scenario the loop is synchronous. If one email fails or the DB ti
 #### These are the design decisions we made for design our system to make sure it is efficient, relaibale also scalable, overall making our system real-world ready.    
 
 
+## Stage-06: How will you maintain the top 10 efficiently?
+**Answer:** If we have millions of notifications, we don't sort the whole array. We would use a Min-Heap of size 10 to keep track of the top items, which is O(N log 10) rather than O(N log N).
 
 
 
