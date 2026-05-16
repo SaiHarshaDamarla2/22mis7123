@@ -2,7 +2,7 @@
 
 const LOG_API_URL="http://4.224.186.213/evaluation-service/logs";
 // Access token is removed during the final push for security reasons
-const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJoYXJzaGEuMjJtaXM3MTIzQHZpdGFwc3R1ZGVudC5hYy5pbiIsImV4cCI6MTc3ODkyOTM4MywiaWF0IjoxNzc4OTI4NDgzLCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiZGVlMzQ0MzYtYzQ2My00NzgxLTg0NTEtMjMwMmQzNDg4ZGI2IiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwic3ViIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIn0sImVtYWlsIjoiaGFyc2hhLjIybWlzNzEyM0B2aXRhcHN0dWRlbnQuYWMuaW4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwicm9sbE5vIjoiMjJtaXM3MTIzIiwiYWNjZXNzQ29kZSI6IlNmRnVXZyIsImNsaWVudElEIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIiwiY2xpZW50U2VjcmV0IjoiY2ZFUk1HdnZDd1BxUXRxYSJ9.ILJ7cayMD8MzTxOQYxDbPW21LWNlCTaHpRTIDfiiczM";
+const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJoYXJzaGEuMjJtaXM3MTIzQHZpdGFwc3R1ZGVudC5hYy5pbiIsImV4cCI6MTc3ODkzNDIwNiwiaWF0IjoxNzc4OTMzMzA2LCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiNzgyZTlkZTQtYzAzYy00ZDY4LThkY2MtOThjZjM0NGI1ZTkwIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwic3ViIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIn0sImVtYWlsIjoiaGFyc2hhLjIybWlzNzEyM0B2aXRhcHN0dWRlbnQuYWMuaW4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwicm9sbE5vIjoiMjJtaXM3MTIzIiwiYWNjZXNzQ29kZSI6IlNmRnVXZyIsImNsaWVudElEIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIiwiY2xpZW50U2VjcmV0IjoiY2ZFUk1HdnZDd1BxUXRxYSJ9.e1M-1cLCH6Frk2_abpoWnEmUzkBZ-oQCmIdxIULAxW8";
 
 // Constraints as per Pre-Setup
 const validStacks = ["backend", "frontend"];
@@ -56,12 +56,12 @@ module.exports={Log};
 // TEST CODE BLOCK
 // Commented it for submission-purposes
 
-/*
-(async () => {
-    try {
-        await Log("backend", "info", "middleware", "Logger function executed successfully.");
-    } catch (error) {
-        console.error("Logger Error:", error.message);
-    }
-})();
-*/
+
+// (async () => {
+//     try {
+//         await Log("backend", "info", "middleware", "Logger function executed successfully.");
+//     } catch (error) {
+//         console.error("Logger Error:", error.message);
+//     }
+// })();
+
