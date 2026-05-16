@@ -5,7 +5,7 @@ const { Log } = require('../logging_middleware/logger');
 const DEPOTS_ENDPOINT = "http://4.224.186.213/evaluation-service/depots";
 const VEHICLES_ENDPOINT = "http://4.224.186.213/evaluation-service/vehicles";
 // Access token is removed during the final push for security reasons
-const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJoYXJzaGEuMjJtaXM3MTIzQHZpdGFwc3R1ZGVudC5hYy5pbiIsImV4cCI6MTc3ODkzNjYzMCwiaWF0IjoxNzc4OTM1NzMwLCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiNzA0OWE1YjctNzJhYS00ODJiLWE3NDktMWU0ODI1MDgyMDdmIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwic3ViIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIn0sImVtYWlsIjoiaGFyc2hhLjIybWlzNzEyM0B2aXRhcHN0dWRlbnQuYWMuaW4iLCJuYW1lIjoic2FpIGhhcnNoYSBkYW1hcmxhIiwicm9sbE5vIjoiMjJtaXM3MTIzIiwiYWNjZXNzQ29kZSI6IlNmRnVXZyIsImNsaWVudElEIjoiOTljNGY1YmQtMWQzNy00MmQyLTk2YTYtZWZmY2JkMzc4YjEyIiwiY2xpZW50U2VjcmV0IjoiY2ZFUk1HdnZDd1BxUXRxYSJ9.n7SkTKsOwRSPbcgTe4L3XAjZunJMS1afxoWhrtNVQ-I";
+const ACCESS_TOKEN = "";
 
 // Function to get the optimal tasks
 function getOptimalTasks(tasks, capacity) {
